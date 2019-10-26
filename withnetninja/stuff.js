@@ -21,7 +21,7 @@ var divider = function(a, b){
 var pi = 3.1314;
 
 //way:2
-//module.exports.elementCounter= elementCounter;
+//module.exports.counter= counter;
 //module.exports.adder = adder;
 //way 3
 module.exports = {
