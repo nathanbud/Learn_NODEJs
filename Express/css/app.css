@@ -1,0 +1,30 @@
+body{background: skyblue;
+    font-family: veranda;
+    color: #fff;
+    padding: 30px;
+}
+
+    h1{
+        font-size: 48px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    p, li{
+        font-size: 16px;
+        text-align: center;
+    }
+
+#contact-form{
+    margin: auto;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact-form input{
+    padding: 2%;
+    margin-bottom: 1.5%;
+}

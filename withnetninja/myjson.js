@@ -2,7 +2,7 @@ const http = require('http');
 const fs =  require('fs');
 
 const server = http.createServer(function(req, res){
-    res.writeHead(200, {'Content-Type': 'text/JSON'});
+    res.writeHead(200, {'Content-Type': 'application/json'});
     var myObj = {
         name: 'Nathan',
         job: 'ninja',
